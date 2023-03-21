@@ -1,13 +1,13 @@
-var modal = document.querySelector(".modal");
+var modal = document.querySelector(".modal-editar");
 var trigger = document.querySelector(".trigger");
 var closeButton = document.querySelector(".close-button");
 
 function toggleModal() {
-    modal.classList.toggle("show-modal");
+    modal.classList.toggle("show-modal-editar");
 }
 
 function windowOnClick(event) {
-    if (event.target === modal) {
+    if (event.target === modal-editar) { 
         toggleModal();
     }
 }
